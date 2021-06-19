@@ -1,0 +1,47 @@
+.container-fluid{
+    display: flex;
+}
+#list{
+    flex: 4;
+}
+#capture-form{
+    flex: 3;
+}
+#important{
+    font-size: 32px;
+    cursor: pointer;
+}
+.task{
+    display: flex;
+    margin: 1rem .5rem;
+    border-bottom: dashed 2px black;
+
+}
+
+.task .important{
+    flex: 1;
+}
+
+.task .description{
+    flex: 5;
+    
+}
+.task .due-date{
+    flex: 2;
+}
+.task .location{
+    flex: 2;
+}
+#btnSave{
+    margin-top: 1rem;
+}
+.form-label{
+    font-weight: bold;
+    margin-left: .1rem; 
+}
+#list{
+    background-color:#3086a8;
+}
+#capture-form{
+    background-color: lightcoral;
+}
